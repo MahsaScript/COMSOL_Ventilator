@@ -1,0 +1,8 @@
+L0_src 100[dB] "Omnidirectional source sound pressure level at R0_src"
+R0_src 1[m] "Reference distance"
+L0_spk 0[dB] "Loudspeaker gain"
+R0_spk 1[m] "Reference distance"
+r_rec 0.3[m] "Receiver radius"
+dt 0.01[s] "Time interval"
+Nrays_min (4.34/r_rec)^2*Vol/pi/c0/dt "Recommended minimum number of released rays"
+Nrays 1000*ceil(Nrays_min/1000) "Number of released rays"

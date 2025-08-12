@@ -1,0 +1,8 @@
+f0 500[Hz] "Band center frequency"
+c0 343[m/s] "Speed of sound"
+rho0 1.2[kg/m^3] Density
+lam0 c0/f0 "Wavelength at f0"
+Vol 457.7[m^3] "Room volume"
+s_default 0.05 "Scattering coefficient of flat surfaces"
+s_diffuser 0.5 "Scattering coefficient of diffusers"
+s_seats 0.6 "Scattering coefficient of seating area"
